@@ -7,7 +7,7 @@ const Home = () => (
   <div className="home-container">
     <Sidebar />
     <div className="content">
-      <h2>HOME</h2>
+      <h2>HOME PAGE</h2>
       {/* Your home page content goes here */}
     </div>
   </div>
