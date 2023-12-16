@@ -1,0 +1,12 @@
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0; /* Reset margin */
+  }
+
+  .content {
+    padding: 25px;
+    text-align: center;
+  }
+  
