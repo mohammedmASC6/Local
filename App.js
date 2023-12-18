@@ -26,9 +26,9 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/profile" component={<Profile/>} />
-        <Route path="/archive" component={<Archive/>} />
-        <Route path="/settings" component={<Settings/>} />
+        <Route path="/profile" element={<Profile/>} />
+        <Route path="/archive" element={<Archive/>} />
+        <Route path="/settings" element={<Settings/>} />
       </Routes>
     </Router>
   );
